@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 import { FormsModule } from "@angular/forms";
-
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { RouterModule, RouterOutlet } from "@angular/router";
 import { EmailService } from "../services/email.service";
 
@@ -8,7 +8,7 @@ import { EmailService } from "../services/email.service";
 @Component({
     selector: 'footer-component',
     standalone: true,
-    imports: [RouterModule,FormsModule ],
+    imports: [RouterModule,FormsModule,TranslateModule ],
     templateUrl: './footer.component.html'
 
   })

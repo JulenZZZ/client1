@@ -8,15 +8,23 @@
     },
 
     "about me": "Soy un joven colombiano que lleva el ritmo en las venas y quiere poner a bailar a todo Polonia! Soy una persona apasionada por la música, por el baile y me encanta crear sinergia y buena energía en todos los eventos donde voy para convertir ese evento en único, donde los protagonistas será el público participante. Les aseguro que habrá un antes y un después de mi actuación.  ",
+    "aboutme2": "Me encanta colaborar en proyectos que generen un impacto positivo, tanto a nivel personal como profesional, y siempre estoy dispuesto a enfrentar nuevos desafíos.",
 
     "service 1": "Coreógrafo de eventos",
     "service 2": "Primer baile de bodas",
     "service 3": "Ayudante DJ",
     "service 4": "Clases privada de baile",
 
+    "shortdescription": "Mis habilidades únicas como coreógrafo de eventos hacen de cada evento una experiencia inolvidable.",
+    "shortdescription2": "Transformo el primer baile de bodas en un momento mágico e inolvidable, creado con dedicación y creatividad.",
+    "shortdescription3": "Ofrezco clases privadas de baile diseñadas a medida, garantizando progreso, confianza y diversión en cada paso.",
+
+
+
+
     "contact me": "Contáctame",
 
     "reserva": "Haz una reserva",
 
-    "reservatexto": "Me pondré en contacto en seguida"
+    "reservatexto": "Contáctame por llamada, Whatsapp o correo electrónico y responderé lo antes posible!"
 }
