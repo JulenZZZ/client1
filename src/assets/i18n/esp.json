@@ -12,19 +12,45 @@
 
     "service 1": "Coreógrafo de eventos",
     "service 2": "Primer baile de bodas",
-    "service 3": "Ayudante DJ",
     "service 4": "Clases privada de baile",
 
     "shortdescription": "Mis habilidades únicas como coreógrafo de eventos hacen de cada evento una experiencia inolvidable.",
     "shortdescription2": "Transformo el primer baile de bodas en un momento mágico e inolvidable, creado con dedicación y creatividad.",
     "shortdescription3": "Ofrezco clases privadas de baile diseñadas a medida, garantizando progreso, confianza y diversión en cada paso.",
 
+    "firstdance": "Ofrezco clases privadas de baile diseñadas a medida, garantizando progreso, confianza y diversión en cada paso.",
+    "firstdans": "El primer baile de bodas es un momento único e irrepetible, es el momento donde todo el mundo deja de respirar y prestan plena atención a cada detalle de los novios. Ese momento mágico es donde los novios mostrarán todo su talento y será el resultado de tantas horas de esfuerzo.",
+    "firstdans2":"Yo les puedo ayudar en ese camino tan bonito para que ustedes dejen deslumbrados al público con un magnífico baile elegante y original.Podemos preparar en varias sesiones una coreografía con bailes latinos donde en el primer minuto tengamos una canción de baile lento y después hacemos una transición a otra canción tropical de baile más rápido y ustedes podrán sentir la emoción del público con todos los ánimos y aclamaciones. ",
 
+    "events":"Organizo coreografías de bailes latinos para diferentes eventos como Bodas, Fiestas de empresa, cumpleaños, fiestas privadas. Estos bailes tienen diferentes estilos como salsa, merengue, bachata, reggaeton.",
+    "events2":"La actuación consiste en conectar con el público y hacer que ellos repitan mis pasos a la vez que yo lo hago. Les enseño cómo moverse para cada estilo de baile.",
 
+    "classes":"Les invito a tomar clases privadas de baile para que su próximo baile no sea indiferente. Ustedes podrán elegir entre diferentes estilos musicales: cumbia, bachata, salsa, merengue, reggaeton.",
+    "classes2":"Mis clases son desde total principiante a pasos avanzados. Si usted nunca ha bailado y le gusta la idea de poder aprender algo nuevo y divertirse en el proceso, no dude en contactarme.",
 
     "contact me": "Contáctame",
 
     "reserva": "Haz una reserva",
 
-    "reservatexto": "Contáctame por llamada, Whatsapp o correo electrónico y responderé lo antes posible!"
+    "reservatexto": "Contáctame por llamada, Whatsapp o correo electrónico y responderé lo antes posible!",
+
+
+    "key1":"Dominio de la técnica",
+    "key2":"Capacidad creativa",
+    "key3":"Adaptabilidad",
+
+    "key4":"Carisma y conexión con la gente",
+    "key5":"Experto en bailes latinos",
+    "key6":"Paciencia y confiado para brindar seguridad a los alumnos",
+
+    "key7":"Preparador de la canción de dos partes para enviar al DJ",
+    "key8":"Preparador del baile de principio a fin",
+    "key9":"Buen comunicador",
+
+    "aspects":"Mis aspectos clave",
+
+    "blue":"Me encanta colaborar en proyectos que generen un impacto positivo.",
+    "blue2":"Deja al público con la boca abierta con las nuevas habilidades que adquirirás.",
+    "blue3":"Dejate guiar por un instructor experto mientras pasas un excelente rato."
+
 }
