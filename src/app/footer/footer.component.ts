@@ -18,6 +18,7 @@ export class FooterComponent{
 
      emailData = {
       to: '',
+      name: '',
       subject: '',
       body: '',
     };
