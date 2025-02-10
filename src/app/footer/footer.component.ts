@@ -3,12 +3,13 @@ import { FormsModule } from "@angular/forms";
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { RouterModule, RouterOutlet } from "@angular/router";
 import { EmailService } from "../services/email.service";
+import { CommonModule } from "@angular/common";
 
 
 @Component({
     selector: 'footer-component',
     standalone: true,
-    imports: [RouterModule,FormsModule,TranslateModule ],
+    imports: [RouterModule,FormsModule,TranslateModule,CommonModule ],
     templateUrl: './footer.component.html'
 
   })
@@ -25,6 +26,10 @@ export class FooterComponent{
     
     constructor(private emailService: EmailService) {
       console.log(this.emailData);
+    }
+
+    ngOnInit(): void{
+
     }
 
     onSubmit() {

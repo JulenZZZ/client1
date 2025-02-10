@@ -9,7 +9,7 @@ export class EmailService {
 
   constructor(private httpclient : HttpClient) { }
 
-  private apiUrl = "https://localhost:7157/api/email/send";
+  private apiUrl = "https://mailingapi-23a3c85446a4.herokuapp.com/api/email/send";
 
   sendEmail(emailData: { to: string; subject: string; body: string }): Observable<any> {
     return this.httpclient.post(this.apiUrl, emailData, {

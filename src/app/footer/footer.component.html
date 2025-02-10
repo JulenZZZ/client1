@@ -43,6 +43,7 @@
     <form (ngSubmit)="onSubmit()" #emailForm="ngForm" class="ml-auto space-y-4">
         <input type='email' name="to" placeholder='Your Email' [(ngModel)]="emailData.to" required
             class="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-sm outline-blue-500 focus:bg-transparent" />
+            
         <input type='text' placeholder='Name' name="name" [(ngModel)]="emailData.name" required
             class="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-sm outline-blue-500 focus:bg-transparent" />
         <input type='text' placeholder='Subject' name="subject" [(ngModel)]="emailData.subject" required
