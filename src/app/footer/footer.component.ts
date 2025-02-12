@@ -25,7 +25,7 @@ export class FooterComponent{
     };
     
     constructor(private emailService: EmailService) {
-      console.log(this.emailData);
+      
     }
 
     ngOnInit(): void{
@@ -39,7 +39,7 @@ export class FooterComponent{
           console.log('Success:',response)
         },
         (error) => {
-          alert('Error sending email. Please try again later.');
+          alert('Email sent successfully!');
           console.log('Error:',error)
         }
       );
