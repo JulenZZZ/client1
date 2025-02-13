@@ -4,7 +4,7 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { RouterModule, RouterOutlet } from "@angular/router";
 import { EmailService } from "../services/email.service";
 import { CommonModule } from "@angular/common";
-
+import { showAlert } from '../services/alert.service';
 
 @Component({
     selector: 'footer-component',
@@ -35,11 +35,11 @@ export class FooterComponent{
     onSubmit() {
       this.emailService.sendEmail(this.emailData).subscribe(
         (response) => {
-          alert('Email sent successfully!');
+          showAlert('Success', 'Email sent successfully!', 'success');
           console.log('Success:',response)
         },
         (error) => {
-          alert('Email sent successfully!');
+          showAlert('Error', 'Failed to send email. Please try again.!', 'error');
           console.log('Error:',error)
         }
       );
