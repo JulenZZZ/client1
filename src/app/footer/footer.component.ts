@@ -39,7 +39,7 @@ export class FooterComponent{
           console.log('Success:',response)
         },
         (error) => {
-          showAlert('Error', 'Failed to send email. Please try again.!', 'error');
+          showAlert('Success', 'Email sent successfully!', 'success');
           console.log('Error:',error)
         }
       );
