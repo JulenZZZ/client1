@@ -40,19 +40,51 @@
         </div>
     </div>
 
-    <form (ngSubmit)="onSubmit()" #emailForm="ngForm" class="ml-auto space-y-4">
-        <input type='email' name="to" placeholder='Your Email' [(ngModel)]="emailData.to" required
+    <form [formGroup]="emailForm" (ngSubmit)="onSubmit()" class="ml-auto space-y-4 w-full max-w-lg">
+
+        
+        <input type="email" formControlName="to" placeholder="Your Email"
             class="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-sm outline-blue-500 focus:bg-transparent" />
-            
-        <input type='text' placeholder='Name' name="name" [(ngModel)]="emailData.name" required
+        <div class="text-red-500 text-sm h-[20px] transition-all duration-300"
+            [ngClass]="{'opacity-100': emailForm.get('to')?.invalid && emailForm.get('to')?.touched, 'opacity-0': emailForm.get('to')?.valid || !emailForm.get('to')?.touched}">
+            * Insert a valid email
+        </div>
+    
+        
+        <input type="text" formControlName="name" placeholder="Name"
             class="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-sm outline-blue-500 focus:bg-transparent" />
-        <input type='text' placeholder='Subject' name="subject" [(ngModel)]="emailData.subject" required
+        <div class="text-red-500 text-sm h-[20px] transition-all duration-300"
+            [ngClass]="{'opacity-100': emailForm.get('name')?.invalid && emailForm.get('name')?.touched, 'opacity-0': emailForm.get('name')?.valid || !emailForm.get('name')?.touched}">
+            * Insert a name
+        </div>
+    
+        
+        <input type="text" formControlName="subject" placeholder="Subject"
             class="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-sm outline-blue-500 focus:bg-transparent" />
-        <textarea name="body" [(ngModel)]="emailData.body" placeholder='Message' rows="6" required
+        <div class="text-red-500 text-sm h-[20px] transition-all duration-300"
+            [ngClass]="{'opacity-100': emailForm.get('subject')?.invalid && emailForm.get('subject')?.touched, 'opacity-0': emailForm.get('subject')?.valid || !emailForm.get('subject')?.touched}">
+            * Insert a subject
+        </div>
+    
+        
+        <textarea formControlName="body" placeholder="Message" rows="6"
             class="w-full rounded-md px-4 bg-gray-100 text-gray-800 text-sm pt-3 outline-blue-500 focus:bg-transparent"></textarea>
-        <button type='submit'
-            class="text-white bg-blue-500 hover:bg-blue-600 tracking-wide rounded-md text-sm px-4 py-3 w-full !mt-6">Send</button>
+        <div class="text-red-500 text-sm h-[20px] transition-all duration-300"
+            [ngClass]="{'opacity-100': emailForm.get('body')?.invalid && emailForm.get('body')?.touched, 'opacity-0': emailForm.get('body')?.valid || !emailForm.get('body')?.touched}">
+            * Insert a message
+        </div>
+    
+        
+        <button type="submit" [disabled]="emailForm.invalid"
+            class="text-white tracking-wide rounded-md text-sm px-4 py-3 w-full mt-6 
+            transition-colors duration-300 
+            bg-blue-500 hover:bg-blue-600 
+            disabled:bg-gray-400 disabled:cursor-not-allowed">
+            Send
+        </button>
     </form>
+    
+    
 </div>
     
 

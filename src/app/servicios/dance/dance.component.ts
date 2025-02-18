@@ -4,7 +4,7 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { HttpClientModule } from '@angular/common/http';
 
 @Component({
-    selector: 'home-component',
+    selector: 'dance-component',
     standalone: true,
     imports: [RouterModule, TranslateModule],
     templateUrl: './dance.component.html'
